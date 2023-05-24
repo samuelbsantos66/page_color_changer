@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="titulo">
+  <h1>Mude a cor da página como quiser!</h1>
+  <i id="paleta" class='bx bxs-palette'></i>
+  </div>
+<form>
+    <input id="input1" oninput="color()" type="range" max="255" min="0">
+    <input id="input2" oninput="color()" type="range" max="255" min="0"> 
+    <input id="input3" oninput="color()" type="range" max="255" min="0"> 
+  </form>
+    <script src="index.js"></script>
+</body>
+</html>
